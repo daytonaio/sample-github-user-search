@@ -2,22 +2,24 @@
     "name": "React App",
     "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
     "forwardPorts": [
-      3000
+        3000
     ],
     "customizations": {
-      "vscode": {
-        "settings": {
-          "editor.formatOnSave": true,
-          "javascript.validate.enable": true,
-          "javascript.suggest.autoImports": true
-        },
-        "extensions": [
-          "dsznajder.es7-react-js-snippets",
-          "esbenp.prettier-vscode",
-          "naumovs.color-highlight",
-          "xaver.clang-format"
-        ]
-      }
+        "vscode": {
+            "settings": {
+                "editor.formatOnSave": true,
+                "javascript.validate.enable": true,
+                "javascript.suggest.autoImports": true
+            },
+            "extensions": [
+                "dsznajder.es7-react-js-snippets",
+                "esbenp.prettier-vscode",
+                "naumovs.color-highlight",
+                "xaver.clang-format"
+            ]
+        }
     },
-    "postCreateCommand": "npm install && npm run build"
-  }
+    "postCreateCommand": "npm install"
+}
+
+  
