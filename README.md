@@ -9,7 +9,7 @@ GH-Search is a project built using github's rest api and react that allows us to
 1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).  
 2. **Create the Workspace**:  
    ```bash  
-   daytona create https://github.com/Prayagrajacharya/GH-Search.git
+   daytona create https://github.com/daytonaio/sample-github-user-search.git
    ```  
 
 
